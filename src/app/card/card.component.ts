@@ -9,6 +9,7 @@ import { Card } from '../app.component';
 export class CardComponent implements OnInit {
 
   @Input() card!: Card;
+  @Input() index!: number
 
   title: string = 'My card title';
   // text: string = 'My text'
